@@ -35,7 +35,7 @@ public class VideoPlay extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.activity_video_play,menu);
+        getMenuInflater().inflate(R.menu.main_menu,menu); //empty menu placed - change kr lio
         return true;
     }
 
